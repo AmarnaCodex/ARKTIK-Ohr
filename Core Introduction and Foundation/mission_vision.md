@@ -1,5 +1,3 @@
-# Writing the mission and vision statement to a markdown file for download
-mission_vision_content = """
 # Mission & Vision Statement
 
 ## Mission
@@ -17,12 +15,4 @@ Through ARKTIK Aleph Quantum, we seek to:
 - Cultivate an inclusive, supportive learning community dedicated to personal growth, spiritual development, and mutual respect.
 
 We believe that the journey of learning Hebrew, understanding Torah, and exploring mystical and scientific principles can be a transformative pathway to self-discovery, community connection, and a greater understanding of the universe.
-"""
-
-# Save the content to a markdown file
-file_path = "/mnt/data/mission_vision.md"
-with open(file_path, "w") as file:
-    file.write(mission_vision_content)
-
-file_path
 
